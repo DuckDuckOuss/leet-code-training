@@ -14,6 +14,8 @@
  * }
  */
 
+import { ListNode } from "../types";
+
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   let cursor: ListNode | null = head;
   let prev: ListNode | null = null;

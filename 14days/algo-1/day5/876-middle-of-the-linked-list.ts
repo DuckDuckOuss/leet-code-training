@@ -14,6 +14,8 @@
  * }
  */
 
+import { ListNode } from "../types";
+
 function middleNode(head: ListNode | null): ListNode | null {
   let count = 0;
   let cursor: ListNode | null = head;
